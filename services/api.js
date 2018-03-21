@@ -20,7 +20,7 @@ module.exports = () => {
     app.use(logger('dev'));
 
     app.get('/', (req, res) => {
-        res.send('Example Build Example: try 4');
+        res.send('Example Build Example: try 5');
     });
 
     // Errors tracking
